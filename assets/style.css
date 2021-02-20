@@ -43,10 +43,10 @@ body{
 }
 
 body{
-  height: 200vh;
+  height: 225vh;
   color: rgb(255, 255, 249);
   font-family: 'Noto Sans', sans-serif;
-  background: linear-gradient(to right top, rgb(83, 134, 197), rgb(176, 182, 190));
+  background: linear-gradient(to right top, rgb(54, 123, 207), rgb(176, 182, 190));
 }
 
 
@@ -121,7 +121,7 @@ nav{
   }
   body{
     overflow-x: hidden;
-    height: 225vh;
+    height: 250vh;
   }
 }
 
@@ -251,7 +251,6 @@ nav{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* align-content: space-around; */
 }
 
 .fouricons{
@@ -295,6 +294,7 @@ nav{
 .Project4,
 .Project5{
   position: relative;
+  padding: 10px;
 }
 
 .Project1:hover .overlay1{
@@ -316,16 +316,3 @@ nav{
 .Project5:hover .overlay1{
   opacity: .75;
 }
-
-#work img{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-/* #work img:hover{
-  opacity: 0.3;
-} */
