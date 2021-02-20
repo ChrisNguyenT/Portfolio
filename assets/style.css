@@ -131,6 +131,7 @@ nav{
     height: 250vh;
   }
   .links{
+    z-index: 1;
     position: absolute;
     right: 0px;
     height: 92vh;
