@@ -11,7 +11,6 @@ https://thangnt336.github.io/Portfolio/
 
 ## Usage
 
-md
 ![demo](assets/images/demo1.png)
 ![demo](assets/images/demo2.png)
 
