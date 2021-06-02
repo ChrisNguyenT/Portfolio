@@ -43,12 +43,15 @@ body{
 }
 
 body{
-  height: 225vh;
-  color: rgb(255, 255, 249);
+  height: 100vh;
+  color: rgb(253, 253, 231);
   font-family: 'Noto Sans', sans-serif;
-  background: linear-gradient(to right top, rgb(54, 123, 207), rgb(176, 182, 190));
+  background-image: url(./images/canvas.jpg);
 }
 
+img{
+  border-radius: .5rem;
+}
 
 h2{
   /* display: flex; */
@@ -61,8 +64,10 @@ h2{
   padding-bottom:5px;
   margin-top: 50px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: rgb(29, 52, 97);
 }
+
 
 /* .background{
   width: fit-content;
@@ -121,14 +126,14 @@ nav{
   }
   body{
     overflow-x: hidden;
-    height: 250vh;
+    height: 100vh;
   }
 }
 
 @media screen and (max-width:768px){
   body{
     overflow-x: hidden;
-    height: 250vh;
+    height: 100vh;
   }
   .links{
     z-index: 1;
@@ -180,10 +185,10 @@ nav{
 /* About Me section properties */
 
 .aboutMe{
-  background: white;
+  /* background: white; */
   min-height: 20vh;
   width: 93%;
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.03));
+  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
@@ -209,17 +214,19 @@ nav{
 .contactLinks{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .contactLinks li{
   list-style: none;
   font-size: 18px;
   padding: 10px;
-  background: white;
+  /* background: white; */
   min-height: 22px;
   width: 250px;
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.03));
+  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
+  margin: 5px;
 }
 
 .contactLinks a{
@@ -228,7 +235,12 @@ nav{
 }
 
 .contactLinks a:hover{
-  font-weight: bold;
+  color: rgba(253, 253, 231, 0.644);
+}
+
+.firstPic{
+  width:545px;
+  height:316px;
 }
 
 @media screen and (max-width:768px){
@@ -237,14 +249,22 @@ nav{
     flex-direction: column;
     align-items: center;
   }
+  .Project1 .overlay1{
+    width:262px;
+    height:150px;
+  }
+  .firstPic{
+    width:262px;
+    height:150px;
+  }
 }
 
 /* Work section properties */
 .container{
-  background: white;
+  /* background: white; */
   min-height: 20vh;
   width: 93%;
-  background: linear-gradient(to right bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.03));
+  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
@@ -260,17 +280,18 @@ nav{
   align-items: center;
 }
 
-.container1,
-.container2{
+/* .container1,
+.container2 {
   display: flex;
-}
+} */
 
 .text{
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
+  text-align: center;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -285,7 +306,8 @@ nav{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(253, 253, 231);
+  background-color: rgba(0, 0, 0, 0.842);
+  border-radius: .5rem;
 }
 
 .Project1,
@@ -294,25 +316,52 @@ nav{
 .Project4,
 .Project5{
   position: relative;
-  padding: 10px;
+  margin: 10px;
 }
 
-.Project1:hover .overlay1{
+#work a:hover .overlay1{
   opacity: .75;
+  color: rgb(29, 52, 97);
 }
 
-.Project2:hover .overlay1{
-  opacity: .75;
+h4:hover{
+  text-decoration: none;
+  color: rgba(29, 52, 97, 0.733);
+  cursor: pointer;
 }
 
-.Project3:hover .overlay1{
-  opacity: .75;
+h4 {
+  margin-left: 55px;
+  min-height: 5vh;
+  width: 15%;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom:5px;
+  margin-bottom: 10px;
+  text-align:left;
+  color: rgb(29, 52, 97);
 }
 
-.Project4:hover .overlay1{
-  opacity: .75;
+#ollist{
+  min-height: 20vh;
+  width: 93%;
+  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
+  border-radius: 0.5rem;
+  margin-left: 50px;
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  padding: 20px;
+  letter-spacing: 1px;
 }
 
-.Project5:hover .overlay1{
-  opacity: .75;
+#ollist a{
+  text-decoration: none;
+  color: rgb(253, 253, 231);
 }
+
+#ollist a:hover{
+  color: rgba(253, 253, 231, 0.644);
+}
+

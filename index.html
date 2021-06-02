@@ -2,23 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
-    <title>Thang's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+  <title>Thang's Portfolio</title>
 </head>
 
 <body>
   <header>
     <nav>
       <div class="menu">
-        <h4>Thang Nguyen</h4>
+        <h3>Thang Nguyen</h3>
       </div>
       <ul class="links">
         <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
+        <li><a href="#work">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="./assets/images/Resume_ThangNguyen.pdf" target="_blank">Resume</a></li>
       </ul>
@@ -29,76 +29,94 @@
       </div>
     </nav>
   </header>
+
+
   <main>
     <section id="about">
-        <h2>About</h2>
-        <div class="aboutMe">
-          <img src="./assets/images/headshot.png" alt="My Picture">
-          <p>Welcome to my page! My name is Thang. I am currently attending UNC's Coding Bootcamp. I aim to become a Web Developer by graduation time. If I'm not inside coding, I enjoy going hiking or to the park with my dog. My hobbies include playing guitar, cooking, and running.</p>
-        </div>
+      <h2>About</h2>
+      <div class="aboutMe">
+        <img src="./assets/images/headshot.png" alt="My Picture">
+        <p>Welcome to my page! My name is Thang. I am currently attending UNC's Coding Bootcamp. I aim to become a Web
+          Developer by graduation time. If I'm not inside coding, I enjoy going hiking or to the park with my dog. My
+          hobbies include playing guitar, cooking, and running.</p>
+      </div>
     </section>
+
+
     <section id="work">
-        <h2>Work</h2>
-        <content class="container">
+      <h2>Projects</h2>
+      <content class="container">
         <div class="Project1">
-          <a href="https://thangnt336.github.io/Code_Refractor/"target="_blank">
-          <img src="./assets/images/Image1.png" alt="Code Refractor" style="width:525px;height:300px;">
-          <div class="overlay1">
-          <div class="text">Code Refractor</div>
-        </div>
-         </a>
+          <a href="https://github.com/thangnt336/-tock-News" target="_blank">
+            <img src="./assets/images/stocknew.png" class="firstPic" alt="$tock News">
+            <div class="overlay1">
+              <div class="text">$tock News</div>
+            </div>
+          </a>
         </div>
         <div class="fouricons">
-        <content class="container1">
-        <div class="Project2">
-          <a href="#2">
-          <img src="./assets/images/Image1.png" alt="Project 2" style="width:262px;height:150px;">
-          <div class="overlay1">
-           <div class="text">Project 2</div>
-          </div>
-          </a>
+          <content class="container1">
+            <div class="Project2">
+              <a href="https://thangnt336.github.io/Weather-Dashboard/" target="_blank">
+                <img src="./assets/images/weather.png" alt="Weather Dashboard" style="width:262px;height:150px;">
+                <div class="overlay1">
+                  <div class="text">Weather Dashboard</div>
+                </div>
+              </a>
+            </div>
+            <div class="Project3">
+              <a href="https://thangnt336.github.io/Code-Quiz/" target="_blank">
+                <img src="./assets/images/codequiz.png" alt="Coding Quiz" style="width:262px;height:150px;">
+                <div class="overlay1">
+                  <div class="text">Coding Quiz</div>
+                </div>
+              </a>
+            </div>
+          </content>
+          <content class="container2">
+            <div class="Project4">
+              <a href="https://thangnt336.github.io/Password-Generator/" target="_blank">
+                <img src="./assets/images/password.png" alt="Password Generator" style="width:262px;height:150px;">
+                <div class="overlay1">
+                  <div class="text">Password Generator</div>
+                </div>
+              </a>
+            </div>
+            <div class="Project5">
+              <a href="https://thangnt336.github.io/Work-Day-Scheduler/" target="_blank">
+                <img src="./assets/images/workday.png" alt="Work Day Scheduler" style="width:262px;height:150px;">
+                <div class="overlay1">
+                  <div class="text">Work Day Scheduler</div>
+                </div>
+              </a>
+            </div>
+          </content>
         </div>
-        <div class="Project3">
-          <a href="#3">
-          <img src="./assets/images/Image1.png" alt="Project 3" style="width:262px;height:150px;">
-          <div class="overlay1">
-            <div class="text">Project 3</div>
-          </div>
-          </a>
-        </div>
-        </content>
-        <content class="container2">
-        <div class="Project4">
-          <a href="#4">
-          <img src="./assets/images/Image1.png" alt="Project 4" style="width:262px;height:150px;">
-          <div class="overlay1">
-            <div class="text">Project 4</div>
-          </div>
-        </a>
-        </div>
-        <div class="Project5">
-          <a href="#5">
-          <img src="./assets/images/Image1.png" alt="Project 5" style="width:262px;height:150px;">
-          <div class="overlay1">
-            <div class="text">Project 5</div>
-          </div>
-        </a>
-        </div>
-        </content>
-        </div>
-        </content>
+      </content>
+      <content class="container3">
+        <h4 class="repository" onclick="openList1()">View Repositories</h4>
+        <ol id="ollist" style="display: none">
+          <li><a href="https://github.com/thangnt336/-tock-News">/$tock News</a></li>
+          <li><a href="https://github.com/thangnt336/Weather-Dashboard">/Weather Dashboard</a></li>
+          <li><a href="https://github.com/thangnt336/Code-Quiz">/Coding Quiz</a></li>
+          <li><a href="https://github.com/thangnt336/Password-Generator">/Password Generator</a></li>
+          <li><a href="https://github.com/thangnt336/Work-Day-Scheduler">/Work Day Scheduler</a></li>
+        </ol>
+      </content>
     </section>
+
+
     <section id="contact">
-        <h2>Contact</h2>
-        <ul class="contactLinks">
-          <li>336-862-0035</li>
-          <li><a href="#">thangnt336@gmail.com</a></li>
-          <li><a href="https://github.com/thangnt336/" target="_blank">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/thangtnguyen" target="_blank">LinkedIn</a></li>
-        </ul>
-        <div></div>
+      <h2>Contact</h2>
+      <ul class="contactLinks">
+        <li>336-862-0035</li>
+        <li><a href="mailto: thangnt336@gmail.com">thangnt@gmail.com</a></li>
+        <li><a href="https://github.com/thangnt336/" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/thangtnguyen" target="_blank">LinkedIn</a></li>
+      </ul>
     </section>
   </main>
   <script src="./assets/script.js"></script>
 </body>
+
 </html>
