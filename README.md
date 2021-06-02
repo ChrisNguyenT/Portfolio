@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a portfolio page which showcases my skills and projects to potential employers. The webpage includes the usage of animations, hover overlay, a responsive layout, and working links. There is currently one project linked on the webpage and the other four are placeholders. These will be updated as I deploy more projects.
+This repository contains my current portfolio page that showcases my skills and projects to potential employers. The webpage includes the usage of animations, hover overlay, a responsive layout, and links. The portfolio will be updated regularly with new projects.
 
 ## Link
 
@@ -11,6 +11,6 @@ https://thangnt336.github.io/Portfolio/
 
 ## Usage
 
-![demo](assets/images/demo1.png)
-![demo](assets/images/demo2.png)
+![preview1](assets/images/preview1.png)
+![preview2](assets/images/preview2.png)
 
