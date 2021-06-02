@@ -127,13 +127,15 @@ nav{
   body{
     overflow-x: hidden;
     height: 100vh;
+    position: fixed;
   }
 }
 
 @media screen and (max-width:768px){
-  body{
+  html, body{
     overflow-x: hidden;
     height: 100vh;
+    position: relative;
   }
   .links{
     z-index: 1;
@@ -187,7 +189,8 @@ nav{
 .aboutMe{
   /* background: white; */
   min-height: 20vh;
-  width: 93%;
+  /* width: 93%; */
+  margin-right: 50px;
   background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
   margin-left: 50px;
@@ -263,7 +266,8 @@ nav{
 .container{
   /* background: white; */
   min-height: 20vh;
-  width: 93%;
+  /* width: 93%; */
+  margin-right: 50px;
   background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
   margin-left: 50px;
@@ -345,7 +349,8 @@ h4 {
 
 #ollist{
   min-height: 20vh;
-  width: 93%;
+  /* width: 93%; */
+  margin-right: 50px;
   background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
   border-radius: 0.5rem;
   margin-left: 50px;
