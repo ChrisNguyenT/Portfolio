@@ -46,7 +46,7 @@ body{
   height: 100vh;
   color: rgb(253, 253, 231);
   font-family: 'Noto Sans', sans-serif;
-  background-image: url(./images/canvas.jpg);
+  background-color: rgb(26,26,26);
 }
 
 img{
@@ -65,7 +65,7 @@ h2{
   margin-top: 50px;
   margin-left: 20px;
   margin-bottom: 10px;
-  color: rgb(29, 52, 97);
+  color: rgb(253, 253, 231);
 }
 
 
@@ -79,7 +79,12 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(29, 52, 97);
+  background-color: rgba(32, 34, 37, 0.966);
+  top: 0;
+  position: fixed;
+  /* overflow: hidden; */
+  width: 100%;
+  z-index: 1;
 }
 
 .menu{
@@ -136,6 +141,8 @@ nav{
     overflow-x: hidden;
     height: 100vh;
     position: relative;
+    --top-spacing: 100px;
+    scroll-padding-top: var(--top-spacing);
   }
   .links{
     z-index: 1;
@@ -143,7 +150,7 @@ nav{
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: rgb(29, 52, 97);
+    background-color: rgba(32, 34, 37, 0.966);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,10 +198,11 @@ nav{
   min-height: 20vh;
   /* width: 93%; */
   margin-right: 50px;
-  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
+  background-color: rgb(32,34,37);
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
+  
 }
 
 .aboutMe img{
@@ -226,7 +234,7 @@ nav{
   /* background: white; */
   min-height: 22px;
   width: 250px;
-  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
+  background-color: rgb(32,34,37);
   border-radius: 0.5rem;
   margin: 5px;
 }
@@ -259,6 +267,9 @@ nav{
     width:262px;
     height:150px;
   }
+  .Project4, .Project2 {
+    margin-top: 0 !important;
+  }
 }
 
 /* Work section properties */
@@ -267,7 +278,7 @@ nav{
   min-height: 20vh;
   /* width: 93%; */
   margin-right: 50px;
-  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
+  background-color: rgb(32,34,37);
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
@@ -289,7 +300,7 @@ nav{
 } */
 
 .text{
-  color: rgb(255, 255, 255);
+  color: rgb(253, 253, 231);
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -350,7 +361,7 @@ h4 {
   min-height: 20vh;
   /* width: 93%; */
   margin-right: 50px;
-  background: linear-gradient(to right, rgb(29, 52, 97), rgba(29, 52, 97, 0.404));
+  background-color: rgb(32,34,37);
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
@@ -369,3 +380,11 @@ h4 {
   color: rgba(253, 253, 231, 0.644);
 }
 
+html {
+  --top-spacing: 100px;
+  scroll-padding-top: var(--top-spacing);
+}
+
+body{
+  padding-top: 50px;
+}

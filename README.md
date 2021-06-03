@@ -11,6 +11,6 @@ https://thangnt336.github.io/Portfolio/
 
 ## Usage
 
-![preview1](assets/images/preview1.png)
-![preview2](assets/images/preview2.png)
+![preview](assets/images/preview.png)
+![preview0](assets/images/preview0.png)
 
