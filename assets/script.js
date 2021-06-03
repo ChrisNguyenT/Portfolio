@@ -37,3 +37,13 @@ function openList1() {
     }
 }
 
+function openResume() {
+    var list = document.getElementById("resumePreview");
+
+    if (list.style.display == "none"){
+        list.style.display = "block";
+    }else{
+        list.style.display = "none";
+    }
+}
+

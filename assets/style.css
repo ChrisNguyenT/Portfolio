@@ -135,6 +135,14 @@ nav{
     height: 100vh;
     /* position: fixed; */
   }
+  #resumePreview img{
+    height: 75%;
+    width: 75%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 100px !important;
+    margin-right: 50px !important;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -203,7 +211,6 @@ nav{
   border-radius: 0.5rem;
   margin-left: 50px;
   display: flex;
-  
 }
 
 .aboutMe img{
@@ -270,6 +277,14 @@ nav{
   }
   .Project4, .Project2 {
     margin-top: 0 !important;
+  }
+  #resumePreview img{
+    height: 75%;
+    width: 75%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 60px !important;
+    margin-right: 50px !important;
   }
 }
 
@@ -341,14 +356,14 @@ nav{
 
 h4:hover{
   text-decoration: none;
-  color: rgba(29, 52, 97, 0.733);
+  color: rgba(45, 55, 70, 0.87);
   cursor: pointer;
 }
 
 h4 {
   margin-left: 55px;
   min-height: 5vh;
-  width: 15%;
+  width: 100%;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -388,4 +403,35 @@ html {
 
 body{
   padding-top: 50px;
+}
+
+#resumePreview{
+  /* background: white; */
+  min-height: 20vh;
+  /* width: 93%; */
+  margin-right: 50px;
+  background-color: rgb(32,34,37);
+  border-radius: 0.5rem;
+  margin-left: 50px;
+  /* display: flex; */
+  position: relative;
+
+}
+
+#resumePreview img{
+  height: 75%;
+  width: 75%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 160px;
+  margin-right: 50px;
+}
+
+h4 a{
+  text-decoration: none;
+  color: rgb(29, 52, 97);
+}
+
+h4 a:hover{
+  color: rgba(45, 55, 70, 0.87);
 }
